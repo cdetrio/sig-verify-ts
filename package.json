@@ -1,11 +1,11 @@
 {
-  "name": "ssz-play",
+  "name": "sig-verify-ts",
   "version": "1.0.0",
   "description": "asf",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/cdetrio/ssz-play",
+  "repository": "https://github.com/cdetrio/sig-verify-ts",
   "license": "MIT",
   "keywords": [],
   "scripts": {
@@ -50,13 +50,14 @@
     "node": ">=8.9"
   },
   "dependencies": {
+    "@types/webassembly-js-api": "0.0.3",
+    "bitcoin-ts": "^1.4.0",
     "sha.js": "^2.4.11"
   },
   "devDependencies": {
     "ava": "2.2.0",
     "codecov": "^3.5.0",
     "cz-conventional-changelog": "^2.1.0",
-    "gh-pages": "^2.0.1",
     "npm-run-all": "^4.1.5",
     "@bitjson/npm-scripts-info": "^1.0.0",
     "nyc": "^14.1.1",
